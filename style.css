@@ -1,8 +1,10 @@
 .gradient-background {
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background: linear-gradient(300deg, rgb(180, 216, 224) , #2b7c97);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
   }
+
+  
   
   @keyframes gradient-animation {
     0% {
@@ -17,17 +19,35 @@
   }
 
 .work{
-    background-color:ivory;
+    background-color:  rgb(193, 237, 247);
 }
 
 .ul_textsize{
     font-size: 20px;
 }
 
-.contribution_tbts{
-    background-color:snow
+.aboutme{
+  background-color:  rgb(171, 219, 230);
 }
+
+.overview{
+  background-color:  rgb(171, 219, 230);
+}
+
+.contribution_tbts{
+    background-color:  rgb(193, 237, 247);
+  }
 
 .tbts_ul li::marker{
    content: "✔️";
 }
+
+.connectcolor{
+  background-color:rgb(171, 219, 230);
+}
+
+.buttonshape{
+  border-radius: 30px;
+  
+}
+

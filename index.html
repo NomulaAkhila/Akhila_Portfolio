@@ -4,49 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akhila Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css"/>
+
 </head>
 <body>
-    <h1><b>AKHILA NOMULA</b></h1>
-    <h4>Email ID: n.akhila1998@gmail.com | Mobile No: +1-9134840206</h4>
-    <h4><a href="https://www.linkedin.com/in/akhila-nomula-3339nsr/">https://www.linkedin.com/in/akhila-nomula-3339nsr/</a></h4>
-    <h2>Professional summary</h2>
-    <hr/>
-    <p>Dynamic and results-driven professional with 3 years of extensive experience in Quality Assurance. Proven track record in fostering collaboration within cross-functional teams to deliver innovative software solutions that meet high-quality standards. Expertise in the Guidewire Insurance Suite, including seamless integrations with quoting vendors and third-party services in the P&C Insurance sector. Demonstrated ability to identify defects and enhance application performance in Agile environments, supported by strong analytical skills for effective root cause analysis and resolution.</p>
-    <h2>Technical skills</h2>
-    <hr/>
-    <ul>
-        <li>Languages	: Python, Java, C, JavaScript, HTML, CSS, ML, R</li>
-        <li>Database	: MySQL, MongoDB, Relational database design</li>
-        <li>Query Languages      	: SQL</li>
-        <li>Tools	: Guidewire, Git, Jenkins, Jira, Confluence, Postman, Kibana, SOAP UI, RDBMS, Kubernetes, MS Office</li>
-        <li>Computer science and fundamentals: Object-oriented design, algorithms, data structures, operating systems</li>
-    </ul>
-    <h2>Work Experience</h2>
-    <hr/>
-    <h3>Deloitte. Fulltime</h3>
-    <h4>Analyst | Nov 2020 – July 2023</h4>
-    <ul>
-        <li>Have been an integral part of the team and received multiple accolades for outstanding performance.</li>
-        <li>Executed comprehensive end-to-end testing of Guidewire Insurance Suite applications and their integrations with quoting vendors and third-party services for major US and Canadian insurance clients.</li>
-        <li>Resolved critical production issues by providing functional support to development teams, significantly improving application stability and performance.</li>
-        <li>Developed and maintained test documentation, including test cases, plans, metrics, and traceability matrices, while performing root cause analysis and debugging functional and technical issues with a determined focus on accuracy.</li>
-        <li>Identified and reported critical defects, collaborated with development and QA teams to resolve production incidents, and consistently delivered major system enhancements with high quality.</li>
-        <li>Successfully led the IRCA project, meeting delivery timelines ahead of schedule and receiving client acceptance resulting in a 20% increase in system efficiency, while earning multiple awards for exceptional performance and proactive contributions.</li>
-        <li>Awarded for exemplary performance and proactive contributions, including a Special Award for exceptional project success.</li>
-    </ul>
-    <h3>Electronics Corporation of India Ltd • Internship</h3>
-    <h4>Intern | May 2019 – June 2019</h4>
-    <ul>
-        <li>Developed and deployed new functionalities for a Java-based app, significantly enhancing user experience & system capabilities. </li>
-        <li>Improved system performance by troubleshooting and resolving critical bugs, leading to a 25% increase in application speed.</li>
-        <li>Developed detailed project documentation and training materials for the newly integrated Java modules, which enabled a smoother transition and resulted in a 15% quicker adaptation period for all users involved in the launch.</li>
-    </ul>
-    <h3><a href="./Projects.html">Projects</a></h3>
-    <h3><a href="./Certifications.html">Certifications</a></h3>
-    <h3><a href="./Education.html">Education</a></h3>
+      <!-- Title -->
+    <section id="title" class="gradient-background">
+        <div class="container col-xxl-8 px-4 py-5 heading">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./Images/Profile_pic.jpg" class="d-block mx-lg-auto img-fluid" alt="Profile photo" width="400" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <p class="display-6 text-body-emphasis lh-1 mb-3">Hi, I'm</p>
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Akhila Nomula</h1>
+                <p class="lead">Aspiring Full-Stack Developer | Building Scalable & Efficient Solutions</p>
+                <p class="lead">Former Analyst turned Developer – passionate about crafting seamless user experiences & solving real-world problems with code.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <a href="https://docs.google.com/document/d/1aP2BLEbQTj4pj3mOZ7I6nR3zAmBrOlTU" type="button" class="btn btn-light btn-lg px-4 me-md-2" fdprocessedid="tjt7fq">Resume</a>
+                  <a href="https://www.linkedin.com/in/akhila-nomula-3339nsr/" type="button" class="btn btn-light btn-lg px-4" fdprocessedid="944shoq"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                  </svg></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
 
+      <!-- Aboutme -->
+    <section id="about" class="aboutme">
+        <div class="mb">
+            <div class="p-5 text-center ">
+              <div class="container">
+                <h1 class="text-body-emphasis">About Me</h1>
+                <p class="col-lg-8 mx-auto lead">With a background in software quality assurance and a strong drive for development, I'm transitioning into a software development role. I’m expanding my expertise in Python, HTML, CSS, JavaScript, Java, and other technologies to build functional and scalable applications. My QA experience has sharpened my attention to detail, problem-solving mindset, and ability to break down complex challenges into efficient solutions—skills I now apply to software development.</p> 
+                <p class="col-lg-8 mx-auto lead">I'm excited to create user-friendly, scalable applications and continuously learn new technologies.</p>
+              </div>
+            </div>
+          </div>
+    </section>
+
+     <!-- Mywork -->
+    <section id="Mywork" class="work">
+      <div class="container px-4" id="custom-cards">
+        <h1 class="py-3 text-center border-bottom ">My work</h1>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 pb-5">
+          <div class="col">
+            <a href="./Deloitte.html" style="text-decoration: none; color: inherit;">
+            <div class="card card-cover h-100 overflow-hidden text-bg-light rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                <img src="./Images/qa-analyst.jpg" height="50" width="60"/>
+                <h3 class="mt-4 mb-4 display-7 lh-1 fw-bold">Deloitte</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex">
+                    <h5>Analyst</h5>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+            </a>
+          </div>
+    
+          <div class="col">
+            <a href="./BMS.html" style="text-decoration: none; color: inherit;">
+            <div class="card card-cover h-100 overflow-hidden text-bg-light rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                <img src="./Images/frond-end1.jpg" height="50" width="50"/>
+                <h3 class="mt-4 mb-4 display-7 lh-1 fw-bold">Broadband Management system</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex">
+                    <h5>Front end</h5>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </a>
+          </div>
+    
+          <div class="col">
+            <a href="./Travel_Bill.html" style="text-decoration: none; color: inherit;">
+            <div class="card card-cover h-100 overflow-hidden text-bg-white rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <img src="./Images/frond-end1.jpg" height="50" width="50"/>
+                <h3 class="mt-4 mb-4 display-7 lh-1 fw-bold">Travel Bill tracking system</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex">
+                    <h5>Front end</h5>
+                  </li>
+                </ul>
+              
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div class="col">
+            <a href="./Moviegenre.html" style="text-decoration: none; color: inherit;">
+            <div class="card card-cover h-100 overflow-hidden text-bg-light rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <img src="./Images/back-end.jpg" height="50" width="50"/>
+                <h3 class="mt-4 mb-4 display-7 lh-1 fw-bold">Movie genre classification</h3>  
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex">
+                    <h5>Back end</h5>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+     <section id="contact" class="gradient-background">
+      <div class="container pt-5">
+        <div class="connectcolor position-relative p-4 text-center text-muted border border-dashed rounded-5">
+          <h1 class="text-body-emphasis">Get in touch</h1>
+          <p class="col-lg-6 mx-auto mb-4">
+            And turn clicks into unforgettable journeys!
+          </p>
+          <a href="mailto:n.akhila1998@gmail.com" class="buttonshape btn btn-dark px-3 mb-3" type="button">
+            n.akhila1998@gmail.com
+          </a>
+        </div>
+        <footer class="py-3 mt-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="https://docs.google.com/document/d/1aP2BLEbQTj4pj3mOZ7I6nR3zAmBrOlTU" class="nav-link px-2 text-body-secondary">Resume</a></li>
+            <li class="nav-item"><a href="https://www.linkedin.com/in/akhila-nomula-3339nsr/" class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2025 Designed & Developed by Akhila Nomula</p>
+        </footer>
+      </div>
+     </section>
     
 
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
